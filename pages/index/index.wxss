@@ -1,0 +1,39 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 32rpx 0;
+}
+
+.textarea-area {
+  width: 100%;
+}
+
+.external-class {
+  margin-top: 20rpx;
+  border-radius: 18rpx;
+  height: 500rpx;
+}

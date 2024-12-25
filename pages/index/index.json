@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "小程序切屏检测",
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-textarea": "tdesign-miniprogram/textarea/textarea"
+  }
+}

@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <t-message id="t-message" />
+  <view class="container">
+    <view class="card">
+      <h1 style="font-weight: bolder; font-size: x-large; margin: 20rpx 0;">微信小程序切屏检测工具</h1>
+      <p style="margin: 20rpx 0;">免责声明：本小程序仅用于验证用户自身的哪些操作会触发切屏检测机制。请勿用于探索线上考试作弊方法等用途！！！</p>
+      <p style="margin: 20rpx 0;">使用方法：你现在可以尝试各种操作，并通过观察页面中的日志反馈来判断是否触发了切屏检测机制。</p>
+    </view>
+    <view class="card">
+      <t-button theme="primary" block bind:tap="clearLog">清空调试日志</t-button>
+      <view class="textarea-area">
+        <t-textarea t-class="external-class" placeholder="暂无日志" model:value="{{ logs }}" disabled />
+      </view>
+    </view>
+  </view>
+</scroll-view>
