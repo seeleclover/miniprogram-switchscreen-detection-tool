@@ -30,5 +30,5 @@
 
 根据《微信小程序开发文档》的指引，小程序的切屏检测机制可通过以下 `应用级事件` 实现：
 
-- `wx.onAppShow(function listener)` [监听小程序切后台事件](https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onAppShow.html)
+- `wx.onAppShow(function listener)` [监听小程序切前台事件](https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onAppShow.html)
 - `wx.onAppHide(function listener)` [监听小程序切后台事件](https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onAppHide.html)
